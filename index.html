@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Qleen - Perth's Premier Car Detailing</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Qleen</h1>
+        <nav>
+            <a href="index.html">Home</a> | 
+            <a href="about.html">About</a> | 
+            <a href="detailer-login.html">Detailer Login</a>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <h2>Get Your Car Sparkling with Qleen</h2>
+        <p>Perth’s top detailers are ready to quote your job now!</p>
+    </section>
+
+    <section id="customer-form">
+        <h3>Request a Detail - Fast Quotes</h3>
+        <form id="detail-request">
+            <label for="car-make">Car Make & Model:</label>
+            <input type="text" id="car-make" placeholder="e.g., Toyota Prado" required>
+
+            <label for="service">Service Type:</label>
+            <select id="service" required>
+                <option value="">Select a service</option>
+                <option value="Exterior Wash">Exterior Wash ($100-$200)</option>
+                <option value="Full Detail">Full Detail ($300-$500)</option>
+                <option value="Ceramic Coating">Ceramic Coating ($800-$2000)</option>
+            </select>
+
+            <label for="location">Perth Suburb:</label>
+            <input type="text" id="location" placeholder="e.g., Cottesloe" required>
+
+            <button type="submit">Get Quotes Now</button>
+        </form>
+        <p id="form-message"></p>
+    </section>
+
+    <footer>
+        <p>© 2025 Qleen - Perth, WA. Drive Clean, Live Qleen.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
