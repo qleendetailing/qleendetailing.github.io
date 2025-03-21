@@ -1,4 +1,4 @@
-npm install --save-dev cypressbody {
+body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
@@ -11,6 +11,20 @@ header {
     color: white;
     text-align: center;
     padding: 20px;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+nav a:hover {
+    text-decoration: underline;
 }
 
 h1 {
@@ -62,7 +76,7 @@ button:hover {
     background-color: #2980b9;
 }
 
-#form-message {
+#form-message, #login-message {
     margin-top: 10px;
     color: green;
 }
@@ -75,6 +89,15 @@ button:hover {
 #job-list li {
     padding: 10px;
     border-bottom: 1px solid #ddd;
+}
+
+#logout {
+    margin-top: 20px;
+    background-color: #e74c3c;
+}
+
+#logout:hover {
+    background-color: #c0392b;
 }
 
 footer {
